@@ -99,12 +99,20 @@ func (c *client) getDataPoints() []DatapointRequest {
 			Oid:  "/1/15/0/1/2/0",
 		},
 		{
+			Name: "circuit_1_mixing_valve",
+			Oid:  "/1/15/0/1/21/0",
+		},
+		{
 			Name: "circuit_2_flow_temp_actual",
 			Oid:  "/1/15/1/0/2/0",
 		},
 		{
 			Name: "circuit_2_flow_temp_set_point",
 			Oid:  "/1/15/1/1/2/0",
+		},
+		{
+			Name: "circuit_2_mixing_valve",
+			Oid:  "/1/15/1/1/21/0",
 		},
 		{
 			Name: "burner_starts",
