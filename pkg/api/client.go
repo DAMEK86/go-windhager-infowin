@@ -150,5 +150,13 @@ func (c *client) getDataPoints() []DatapointRequest {
 			Name: "buffer_temp_set_point",
 			Oid:  "/1/16/1/1/15/0",
 		},
+		{
+			Name: "burner_daily_store",
+			Oid:  "1/60/0/43/42/0",
+		},
+		{
+			Name: "burner_current_power_level",
+			Oid:  "/1/60/0/0/9/0",
+		},
 	}
 }
